@@ -1,5 +1,4 @@
 # Flight Tracking 
-# Flight Tracking 
 
 ## Структура проекта: 
 ```
