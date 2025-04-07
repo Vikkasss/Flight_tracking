@@ -1,9 +1,8 @@
 # Flight Tracking 
-
 # Flight Tracking 
 
 ## Структура проекта: 
-'''
+```
 flight_tracker/
 │
 ├── app.py                # Основной скрипт приложения
@@ -13,20 +12,20 @@ flight_tracker/
 ├── requirements.txt      # Список зависимостей
 ├── README.md             # Описание проекта
 └── reports.py
-'''
+```
 
-1. app.py
+1. `app.py`
     - Основной скрипт приложения.
     - Получает данные о рейсах с [Flightradar24 API](https://www.flightradar24.com/airport/lcy).
     - Обрабатывает данные и сохраняет их в базу через SQLAlchemy.
-2. models.py 
-    - Определяет структуру таблиц БД через классы  Aircraft, Flight.
-3. data_loader.py
-    - Содержит функции для добавления данных в БД (add_aircraft, add_flight).
+2. `models.py `
+    - Определяет структуру таблиц БД через классы  `Aircraft`, `Flight`.
+3. `data_loader.py`
+    - Содержит функции для добавления данных в БД (`add_aircraft`, `add_flight`).
     - Обрабатывает ошибки и транзакции
-4. config.py
+4. `config.py`
     - Хранит настройки подключения к БД (логин, пароль, хост).
-5. reports.py
+5. `reports.py`
     - Генерирует отчеты PDF  и в консоле на основе данных из БД.
   
 ## Как запустить программу? 
@@ -34,12 +33,17 @@ flight_tracker/
 Необходимо ввести в терминале следующие строки по очереди:
 
 1. Cкачивание необходимых пакетов
+```
 pip install requirements.txt
+```
 
 2. Запуск программы
+```
 python app.py
+```
 
 3. Примерный вывод в терминале:
+```
 (.venv) PS C:\Users\Acer\Desktop\Repositories\Flight_Radar> python app.py
 Данные успешно добавлены в таблицы!
 
@@ -64,6 +68,7 @@ Daily Report:
 
 Отчет также сохранен в PDF файл
 (.venv) PS C:\Users\Acer\Desktop\Repositories\Flight_Radar> 
+```
 
 В данном случае отчет был сформирован по часам. Ниже прикрепляю фото бд: 
   
