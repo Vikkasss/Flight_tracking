@@ -74,3 +74,11 @@ Daily Report:
   
 Пример того как выглядят таблицы в бд: 
 (Я делала тесты с 10-15 самолетами для быстрой поверки работоспособности кода)
+
+![image](https://github.com/user-attachments/assets/566e2c8f-6bba-45af-8df0-aee0d2fb8429)
+
+![image](https://github.com/user-attachments/assets/d588234d-e381-4c49-8b9d-084a85c60568)
+
+
+![image](https://github.com/user-attachments/assets/76e917a7-9b62-4ea9-b113-b131a76880c5)
+
