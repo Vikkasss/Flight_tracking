@@ -1,0 +1,6 @@
+flightradar24
+FlightRadarAPI
+psycopg2==2.9.10
+psycopg2-binary
+sqlalchemy==2.0.40
+reportlab==4.3.1
